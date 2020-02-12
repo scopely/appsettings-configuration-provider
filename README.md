@@ -1,7 +1,7 @@
 # AppSettings Configuration Provider
 .NET Core configuration provider for old AppSettings.config files.
 
-# Usage
+## Usage
 Given a file `AppSettings.config`
 ```xml
 <appSettings>
@@ -23,3 +23,12 @@ var someValue = config["someKey"];
 ```
 
 It also supports `<clear />` and `<remove key="foo" />` elements.
+
+## Install Package
+
+On Nuget: [Scopely.Configuration.AppSettings](https://www.nuget.org/packages/Scopely.Configuration.AppSettings/)
+
+```bash
+# install using the dotnet CLI
+dotnet add package Scopely.Configuration.AppSettings
+```
