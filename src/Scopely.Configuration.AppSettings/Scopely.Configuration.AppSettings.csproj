@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Scopely.Configuration</RootNamespace>
+    <Authors>Scopely</Authors>
+    <Company>Scopely</Company>
+    <Product>Scopely.Configuration.AppSettings</Product>
+    <Copyright>2020</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/scopely/appsettings-configuration-provider</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/scopely/appsettings-configuration-provider</RepositoryUrl>
+    <Description>Used for including an old XML-based AppSettings.config file in your .NET Core project.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
