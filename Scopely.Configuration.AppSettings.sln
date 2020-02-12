@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scopely.Configuration.AppSettings", "src\Scopely.Configuration.AppSettings\Scopely.Configuration.AppSettings.csproj", "{B5CCA22D-CC3D-471B-8BFE-3245182F2837}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "tests\Tests.csproj", "{F2E7A3B6-F020-49CB-8E66-EF6B0B304861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5CCA22D-CC3D-471B-8BFE-3245182F2837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CCA22D-CC3D-471B-8BFE-3245182F2837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CCA22D-CC3D-471B-8BFE-3245182F2837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CCA22D-CC3D-471B-8BFE-3245182F2837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E7A3B6-F020-49CB-8E66-EF6B0B304861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E7A3B6-F020-49CB-8E66-EF6B0B304861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E7A3B6-F020-49CB-8E66-EF6B0B304861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E7A3B6-F020-49CB-8E66-EF6B0B304861}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B976625A-C527-4C76-A4EB-2B2C602539B7}
+	EndGlobalSection
+EndGlobal
