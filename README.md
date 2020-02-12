@@ -1,4 +1,4 @@
-# appsettings-configuration-provider
+# AppSettings Configuration Provider
 .NET Core configuration provider for old AppSettings.config files.
 
 # Usage
